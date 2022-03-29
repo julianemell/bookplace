@@ -47,6 +47,12 @@ header {
 	height: auto;
 }
 
+.books-text-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .books {
 	width: 100%;
 	height: auto;
@@ -57,6 +63,18 @@ header {
 	background-color: #F9F1FA;
 
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.promotion-img-holder {
+	display: flex;
+	justify-content: center;
+}
+
+.promotion-img {
+	width: 80%;
 }
 
 /* FAQ */
