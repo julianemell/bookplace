@@ -148,10 +148,27 @@ footer a {
 	flex-wrap: wrap;
 }
 
-.footer-links {
-	width: 50%;
+.footer-logo-container {
+	display: flex;
+	justify-content: center;
+	padding: 10%;
 }
 
+.footer-logo {
+	width: 70%;
+}
 
+.footer-links {
+	width: 50%;
 
+	display: flex;
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+}
 
+.footer-title {
+	color: #757575;
+	font-weight: lighter;
+	font-size: small;
+}
