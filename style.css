@@ -55,12 +55,32 @@ header {
 /* Promotion */
 .promotion {
 	background-color: #F9F1FA;
+
+	display: flex;
 }
 
 /* FAQ */
 
 
 /* Footer */
+footer {
+	background-color: black;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+.footer-content {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-links {
+	width: 50%;
+}
 
 
 
