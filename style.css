@@ -33,6 +33,23 @@ header {
 	color: white;
 }
 
+.book-holder {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items:flex-start;
+}
+
+.popular-books-scroll, .newly-released-scroll {
+	width: 25%;
+	height: auto;
+}
+
+.books {
+	width: 100%;
+	height: auto;
+}
+
 
 
 /* Footer */
