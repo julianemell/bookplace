@@ -114,8 +114,9 @@ header {
 	background-color: #F2F2F2;
 }
 
-.FAQ h2 {
-	padding-top: 15%;
+.FAQ-holder {
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 .question {
@@ -138,6 +139,11 @@ footer {
 	color: white;
 }
 
+.footer-holder {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
 footer a {
 	color: white;
 }
@@ -151,11 +157,11 @@ footer a {
 .footer-logo-container {
 	display: flex;
 	justify-content: center;
-	padding: 10%;
+	/* padding: 10%; */
 }
 
 .footer-logo {
-	width: 70%;
+	width: 60%;
 }
 
 .footer-links {
