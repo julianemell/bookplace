@@ -157,7 +157,6 @@ nav a:hover {
 /* Main */
 /* Hero */
 .hero {
-	/* top: 80px; */
 	background-image: url("assets/ameer-basheer-gV6taBJuBTk-unsplash\ 2.png");
 	background-repeat: no-repeat;
 	background-size: auto 100%;
@@ -414,7 +413,7 @@ footer a {
 	margin: 5% 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 835px) {
 	.nav-toggle-label {
 		display: none;
 	}
@@ -449,4 +448,8 @@ footer a {
 		opacity: 1;
 		position: relative;
 	}
+}
+
+@media screen and (min-width: 1440px) {
+
 }
