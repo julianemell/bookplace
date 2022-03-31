@@ -273,18 +273,37 @@ nav a:hover {
 	padding-bottom: 10%;
 }
 
+#FAQ-header {
+	padding-bottom: 8%;
+	margin-bottom: 8%;
+	border-bottom: #D1D1D1 solid 1px;
+}
+
 .question {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
-	margin: 4% 0 4% 0;
+	margin-bottom: 8%;
+	padding-bottom: 8%;
+
 	border-bottom: #D1D1D1 solid 1px;
 }
 
+.question p {
+	font-weight: 500;
+	font-size: medium;
+}
+
+/* 
+*
+* @todo change + to span, make an accordion.
+*
+ */
 .question span {
 	color: #BA3FCA;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
+	font-weight: 300;
 }
 
 /* Footer */
