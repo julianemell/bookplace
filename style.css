@@ -231,7 +231,7 @@ nav a:hover {
 	font-size: small;
 }
 
-/* Promotion */
+/* Promotion ---använd grid för att positionera img? */
 .promotion {
 	background-color: #F9F1FA;
 	padding-bottom: 15%;
@@ -250,6 +250,18 @@ nav a:hover {
 .promotion-img {
 	width: 80%;
 }
+
+.get-app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.badge {
+	width: 40%;
+	padding: 2%;
+}
+
 
 /* FAQ */
 .FAQ {
