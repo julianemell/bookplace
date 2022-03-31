@@ -184,13 +184,18 @@ nav a:hover {
 	align-items:flex-start;
 }
 
+.browse-link {
+	color: #BA3FCA;
+	font-weight: 700;
+}
+
 .popular-books, .newly-released {
 	padding-top: 15%;
 	padding-bottom: 15%;
 }
 
 .popular-books-scroll, .newly-released-scroll {
-	width: 25%;
+	width: 30%;
 	height: auto;
 }
 
@@ -203,6 +208,27 @@ nav a:hover {
 .books {
 	width: 100%;
 	height: auto;
+}
+
+.stars {
+	margin: 5% 0;
+}
+
+.fa-star {
+	color: #C4C4C4;
+}
+
+.checked {
+	color: #FFA500;
+}
+
+.title {
+	margin: 1% 0;
+}
+
+.author {
+	color: #757575;
+	font-size: small;
 }
 
 /* Promotion */
