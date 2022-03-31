@@ -87,7 +87,7 @@ header {
 
 nav {
 	position: absolute;
-	text-align: right;
+	text-align: left;
 	top: 100%;
 	right: 0;
 	background: rgb(255, 255, 255);
@@ -104,15 +104,23 @@ nav ul {
 }
 
 nav li {
-	margin-bottom: 1em;
+	margin-bottom: .75em;
+	padding: .75em;
+	
+	margin-left: 1em;
 	margin-right: 1em;
+	border-bottom: #D1D1D1 solid 1px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav a {
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	font-size: 1.2rem;
-	text-transform: uppercase;
+	font-weight: 500;
 	opacity: 0;
 	transition: opacity 150ms ease-in-out;
 }
