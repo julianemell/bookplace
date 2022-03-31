@@ -4,22 +4,29 @@ body {
 	font-weight: 400;
 }
 
-.purple-button {
-	background-color: #BA3FCA;
-	color: white;
-	padding: 4% 6%;
-	font-weight: bold;
-	border: none;
-	border-radius: 5px;
-}
-
 h1 {
 	font-weight: 500;
-	font-size: 2rem;
+	font-size: 2.2rem;
+	margin: 3% 0;
 }
 
 p {
 	font-weight: 400;
+	margin: 1% 0;
+	font-size: 1.1em;
+}
+
+.purple-button {
+	background-color: #BA3FCA;
+	color: white;
+	padding: 4% 6%;
+	margin: 4% 0;
+
+	border: none;
+	border-radius: 5px;
+	
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .container {
@@ -162,6 +169,10 @@ nav a:hover {
 	z-index: 999;
 
 	color: white;
+}
+
+#hero-p-text {
+	line-height: 1.7;
 }
 
 /* Books */
