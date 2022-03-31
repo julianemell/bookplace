@@ -49,7 +49,7 @@ header {
 	text-align: center;
 	position: sticky;
 	top: 0;
-	z-index: 99;
+	z-index: 999;
 
 	display: flex;
 	align-items: center;
@@ -158,12 +158,12 @@ nav a:hover {
 /* Hero */
 .hero {
 	/* top: 80px; */
-	background-image: url("assets/Hero.jpg");
-	width: 100%;
-	height: 70vh;
-	background-position: center;
+	background-image: url("assets/ameer-basheer-gV6taBJuBTk-unsplash\ 2.png");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto 100%;
+	width: 100%;
+	height: 80vh;
+	background-position: center;
 	position: relative;
     z-index: -1;
 }
@@ -183,12 +183,19 @@ nav a:hover {
 }
 
 /* Books */
+.scroll-container{
+	overflow: auto;
+	white-space: nowrap;
+	padding: 4%;
+	background: transparent;
+	height: 100%;
+	border-radius:15px;
+}
+
 .book-holder {
-	width: 100%;
-	height: auto;
+	display: inline-block;
 	display: flex;
-	justify-content: space-evenly;
-	align-items:flex-start;
+
 }
 
 .browse-link {
@@ -202,7 +209,12 @@ nav a:hover {
 }
 
 .popular-books-scroll, .newly-released-scroll {
-	width: 30%;
+	margin-right: 4%;
+	width: 140px;
+}
+
+.popular-books-scroll img, .newly-released-scroll img {
+	width: 130px;
 	height: auto;
 }
 
@@ -213,7 +225,7 @@ nav a:hover {
 }
 
 .books {
-	width: 100%;
+	/* width: 100%; */
 	height: auto;
 }
 
@@ -231,6 +243,8 @@ nav a:hover {
 
 .title {
 	margin: 1% 0;
+	word-wrap: break-word;
+	white-space: normal;
 }
 
 
