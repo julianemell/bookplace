@@ -183,7 +183,23 @@ nav a:hover {
 }
 
 /* Books */
-.scroll-container{
+.popular-books, .newly-released {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.books-text-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.browse-link {
+	color: #BA3FCA;
+	font-weight: 700;
+}
+
+.scroll-container {
 	overflow: auto;
 	white-space: nowrap;
 	padding: 4% 4% 4% 0;
@@ -195,17 +211,6 @@ nav a:hover {
 .book-holder {
 	display: inline-block;
 	display: flex;
-
-}
-
-.browse-link {
-	color: #BA3FCA;
-	font-weight: 700;
-}
-
-.popular-books, .newly-released {
-	padding-top: 15%;
-	padding-bottom: 15%;
 }
 
 .popular-books-scroll, .newly-released-scroll {
@@ -213,19 +218,8 @@ nav a:hover {
 	width: 140px;
 }
 
-.popular-books-scroll img, .newly-released-scroll img {
-	width: 130px;
-	height: auto;
-}
-
-.books-text-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
 .books {
-	/* width: 100%; */
+	width: 130px;
 	height: auto;
 }
 
@@ -250,8 +244,6 @@ nav a:hover {
 
 /* Promotion */
 .promotion {
-
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -265,7 +257,6 @@ nav a:hover {
 
 .promotion-img {
 	width: 80%;
-	/* transform: translate(0, 200px); */
 	position: absolute;
 	z-index: 99;
 }
@@ -323,9 +314,7 @@ nav a:hover {
 }
 
 /* 
-*
-* @todo change + to span, make an accordion.
-*
+@todo change '+' to span, make an accordion.
  */
 .question span {
 	color: #BA3FCA;
@@ -339,6 +328,19 @@ footer {
 	color: white;
 }
 
+footer a {
+	color: white;
+	padding: 4% 0;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.footer-logo-container {
+	display: flex;
+	justify-content: center;
+	margin: 10% 0;
+}
+
 .footer-holder {
 	padding-top: 5%;
 	padding-bottom: 10%;
@@ -348,23 +350,10 @@ footer {
 	align-items: center;
 }
 
-footer a {
-	color: white;
-	padding: 4% 0;
-	font-weight: 300;
-	font-size: 16px;
-}
-
 .footer-content {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-}
-
-.footer-logo-container {
-	display: flex;
-	justify-content: center;
-	margin: 10% 0;
 }
 
 .footer-logo {
@@ -382,12 +371,6 @@ footer a {
 	align-items: center;
 }
 
-.footer-title {
-	color: #757575;
-	font-weight: lighter;
-	font-size: small;
-}
-
 .social {
 	display: flex;
 	width: 70%;
@@ -402,7 +385,6 @@ footer a {
 	height: 50px;
 	background-color: #242424;
 	border-radius: 50%;
-	/* padding: 4%; */
 	margin: 4%;
 
 	display: flex;
