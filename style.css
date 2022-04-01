@@ -603,6 +603,26 @@ footer a {
 		position: relative;
 	}
 
+	/* Books */
+	.book-holder {
+		justify-content: space-between;
+		width: 100%;
+	}
+	
+	.popular-books-scroll, .newly-released-scroll {
+		margin-right: 0;
+		width: 15%;
+	}
+
+	.scroll-container {
+		padding: 0;
+	}
+	
+	.books {
+		width: 100%;
+		height: auto;
+	}
+
 	/* FAQ */
 	.FAQ {
 		display: flex;
