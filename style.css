@@ -431,13 +431,14 @@ footer a {
 
 	/* Header */	
 	.logo {
-		width: 25%;
+		width: 20%;
 	}
 
 	/* Main */
 	/* Hero */
 	.hero {
-		height: 40vh;
+		height: 60vh;
+		background-size: 100%;
 	}
 	
 	.hero-text {
