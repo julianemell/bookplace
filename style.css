@@ -25,7 +25,7 @@ p {
 .purple-button {
 	background-color: #BA3FCA;
 	color: white;
-	padding: 4% 6%;
+	padding: 3% 5%;
 	margin: 4% 0;
 
 	border: none;
@@ -417,6 +417,29 @@ footer a {
 }
 
 @media screen and (min-width: 835px) {
+	/* Header */	
+	.logo {
+		width: 25%;
+	}
+
+	/* Main */
+	.hero {
+		height: 40vh;
+	}
+	
+	.hero-text {
+		width: 70%;
+		margin-left: 0;
+	}
+	
+	#hero-p-text {
+		width: 80%;
+	}
+
+
+}
+
+@media screen and (min-width: 1440px) {
 	.nav-toggle-label {
 		display: none;
 	}
@@ -451,8 +474,4 @@ footer a {
 		opacity: 1;
 		position: relative;
 	}
-}
-
-@media screen and (min-width: 1440px) {
-
 }
