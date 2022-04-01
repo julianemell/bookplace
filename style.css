@@ -337,6 +337,10 @@ footer a {
 	font-size: 16px;
 }
 
+#footer-symbol-logo {
+	display: none;
+}
+
 .footer-logo-container {
 	display: flex;
 	justify-content: center;
@@ -420,6 +424,7 @@ footer a {
 	h2 {
 		font-size: 1.8em;
 	}
+
 	/* Header */	
 	.logo {
 		width: 25%;
@@ -462,7 +467,6 @@ footer a {
 		height: auto;
 	}
 
-
 	/* Promotion */
 	.promotion {
 		flex-direction: row-reverse;
@@ -487,33 +491,71 @@ footer a {
 	}
 
 	/* FAQ */
-	.FAQ-holder {
-		padding-top: 10%;
-		padding-bottom: 10%;
-	}
-	
 	#FAQ-header {
 		padding-bottom: 4%;
 		margin-bottom: 4%;
-		border-bottom: #D1D1D1 solid 1px;
 	}
 	
 	.question {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	
 		margin-bottom: 4%;
 		padding-bottom: 4%;
-	
-		border-bottom: #D1D1D1 solid 1px;
 	}
 	
 	.question p {
-		font-weight: 500;
 		font-size: large;
 	}
 
+	/* Footer */
+	.footer-holder {
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		padding-bottom: 2%;
+		align-items: flex-start;
+	}
+
+	.footer-logo-container {
+		width: 15%;
+		margin-top: 0;
+	}
+
+	.footer-logo {
+		width: 40%;
+	}
+
+	#footer-full-logo {
+		display: none;
+	}
+
+	#footer-symbol-logo {
+		display: inline;
+	}
+
+	.footer-content {
+		width: 50%;
+	}
+
+	.footer-links {
+		align-items: flex-start;
+	}
+
+	.social {
+		width: 30%;
+		margin-top: 0;
+
+	}
+
+	.footer-info {
+		width: 45%;
+		margin-bottom: 0;
+	}
+
+	.company {
+		width: 45%;
+		display: flex;
+		justify-content: right;
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (min-width: 1440px) {
