@@ -315,6 +315,10 @@ nav a:hover {
 	font-size: medium;
 }
 
+.FAQ-illustration {
+	display: none;
+}
+
 /* 
 @todo change '+' to span, make an accordion.
  */
@@ -491,6 +495,7 @@ footer a {
 	}
 
 	/* FAQ */
+
 	#FAQ-header {
 		padding-bottom: 4%;
 		margin-bottom: 4%;
@@ -504,6 +509,7 @@ footer a {
 	.question p {
 		font-size: large;
 	}
+
 
 	/* Footer */
 	.footer-holder {
@@ -559,6 +565,9 @@ footer a {
 }
 
 @media screen and (min-width: 1440px) {
+	h2 {
+		font-size: 2.2em;
+	}
 	.nav-toggle-label {
 		display: none;
 	}
@@ -592,5 +601,26 @@ footer a {
 	nav a {
 		opacity: 1;
 		position: relative;
+	}
+
+	/* FAQ */
+	.FAQ {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.FAQ-holder {
+		width: 45%;
+	}
+
+	.FAQ-illustration {
+		display: inline;
+		width: 45%;
+	}
+
+	#FAQ-illustration {
+		width: 80%;
+		height: auto;
 	}
 }
