@@ -565,9 +565,21 @@ footer a {
 }
 
 @media screen and (min-width: 1440px) {
+	h1 {
+		font-size: 3.5em;
+	}
+
 	h2 {
 		font-size: 2.2em;
 	}
+
+	.purple-button {
+		padding: 2% 4%;
+		margin: 2% 0;
+		font-size: 14px;
+	}
+
+	/* Header */
 	.nav-toggle-label {
 		display: none;
 	}
@@ -603,6 +615,25 @@ footer a {
 		position: relative;
 	}
 
+	/* Main */
+	/* Hero */
+	.hero {
+		background-image: url("assets/ameer-basheer-gV6taBJuBTk-unsplash\ 2.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 60vh;
+		background-position:center;
+	}
+
+	.hero-text {
+		width: 60%;
+		margin-left: 0;
+	}
+	
+	#hero-p-text {
+		width: 45%;
+	}
+
 	/* Books */
 	.book-holder {
 		justify-content: space-between;
@@ -621,6 +652,24 @@ footer a {
 	.books {
 		width: 100%;
 		height: auto;
+	}
+
+	/* Promotion */
+	.promotion-img {
+		width: 45%;
+	}
+
+	.promotion-container {
+		padding-left: 10%;
+		width: 30%;
+	}
+	.get-app {
+		width: 100%;
+	}
+
+	.badge {
+		width: 25%;
+		padding: 5% 1% 1% 1%;
 	}
 
 	/* FAQ */
