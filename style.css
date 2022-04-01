@@ -247,6 +247,10 @@ nav a:hover {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+	background-color: #F9F1FA;
+	
+	position: relative;
+	margin-top: 10%;
 }
 
 .promotion-img-holder {
@@ -257,15 +261,14 @@ nav a:hover {
 .promotion-img {
 	width: 80%;
 	position: absolute;
+	top: -15%;
 	z-index: 99;
 }
 
 .promotion-container {
-	position: relative;
-	background-color: #F9F1FA;
 	padding-bottom: 15%;
-	padding-top: 250px;
-	margin-top: 15%;
+	padding-top: 40%;
+	margin-top: 25%;
 }
 
 .get-app {
